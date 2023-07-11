@@ -10,8 +10,8 @@ const Navbar = () => {
     <div className="mt-4 font-openSans flex justify-between sm:justify-around items-center">
       <div className="flex items-center justify-center space-x-3">
         <Image src="/assets/ocr.png" width={40} height={40} alt="brand logo" />
-        <span className=" sm:text-2xl md:text-3xl hidden sm:inline font-bold font-caveat text-[#0abde3]">
-          Lexicon<span className="text-orange-400">Capture</span>
+        <span className=" sm:text-xl md:text-2xl hidden sm:inline font-semibold text-[#0abde3]">
+          Lexicon<span className="text-orange-400"> Capture</span>
         </span>
       </div>
       {sign === "" ? (
