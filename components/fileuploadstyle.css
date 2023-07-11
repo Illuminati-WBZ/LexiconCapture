@@ -1,0 +1,37 @@
+* {
+  transition: all 0.1s ease-in-out;
+}
+.file-drop {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  height: 190px;
+}
+.file-drop .file-drop-target {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  border: 2px dashed #4bc0ef;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.file-drop > .file-drop-target.file-drop-dragging-over-target {
+  border: 2px dashed coral;
+}
+.file-drop > .file-drop-target.file-drop-dragging-over-target > .placeholder {
+  color: coral;
+}
+.file-drop .placeholder {
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 26px;
+  color: #3d4852;
+  text-align: center;
+}
+.file-drop .placeholder span {
+  color: #4bc0ef;
+  cursor: pointer;
+}
