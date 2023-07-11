@@ -105,7 +105,7 @@ const FileUpload = () => {
           className="shadow-lg w-[300px] sm:w-[450px] min-h-[300px] py-5  rounded-md flex flex-col justify-center"
         >
           <FileDrop
-            frame={document.querySelector("#frame")}
+            frame={document.body}
             onTargetClick={filePicker}
             onDrop={(f) => fileHandler(f)}
           >
